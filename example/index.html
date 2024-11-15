@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>strve-reactivity</title>
+  </head>
+  <body>
+    <script type="module">
+      import { html } from 'https://cdn.jsdelivr.net/npm/strve-js/dist/strve.full-esm.js';
+      import { createApp } from '../dist/strve-reactivity.esm.js';
+      import register from './components/register.js';
+
+      register();
+
+      createApp(() => html`<my-component></my-component>`).mount('#app');
+    </script>
+  </body>
+</html>

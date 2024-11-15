@@ -1,0 +1,44 @@
+{
+  "name": "strve-reactivity",
+  "version": "1.5.0",
+  "description": "Reactivity strve.js.",
+  "main": "dist/strve-reactivity.esm.js",
+  "module": "dist/strve-reactivity.esm.js",
+  "unpkg": "dist/strve-reactivity.esm.js",
+  "jsdelivr": "dist/strve-reactivity.esm.js",
+  "author": "maomincoding",
+  "files": [
+    "dist/*.js"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "strve",
+    "strvejs",
+    "strve-js",
+    "strve-reactivity",
+    "reactivity",
+    "dom",
+    "mvvm",
+    "virtual dom",
+    "html",
+    "template",
+    "string"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strveJs/strve-reactivity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/strveJs/strve-reactivity/issues"
+  },
+  "homepage": "https://github.com/strveJs/strve-reactivity#readme",
+  "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^2.57.0"
+  }
+}
