@@ -1,6 +1,6 @@
 {
-  "name": "strve-reactivity",
-  "version": "1.5.0",
+  "name": "amazed-web-components",
+  "version": "0.0.1",
   "description": "Reactivity strve.js.",
   "main": "dist/strve-reactivity.esm.js",
   "module": "dist/strve-reactivity.esm.js",
