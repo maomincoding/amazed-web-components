@@ -1,11 +1,11 @@
 {
   "name": "amazed-web-components",
-  "version": "0.0.1",
-  "description": "Reactivity strve.js.",
-  "main": "dist/strve-reactivity.esm.js",
-  "module": "dist/strve-reactivity.esm.js",
-  "unpkg": "dist/strve-reactivity.esm.js",
-  "jsdelivr": "dist/strve-reactivity.esm.js",
+  "version": "0.0.3",
+  "description": "Fast, lightweight web components for creating web pages.",
+  "main": "dist/amazed-web-components.esm.js",
+  "module": "dist/amazed-web-components.esm.js",
+  "unpkg": "dist/amazed-web-components.esm.js",
+  "jsdelivr": "dist/amazed-web-components.esm.js",
   "author": "maomincoding",
   "files": [
     "dist/*.js"
@@ -16,10 +16,11 @@
   "license": "MIT",
   "private": false,
   "keywords": [
-    "strve",
-    "strvejs",
-    "strve-js",
-    "strve-reactivity",
+    "amazed",
+    "amazedjs",
+    "amazed-js",
+    "amazed-web-components",
+    "web-components",
     "reactivity",
     "dom",
     "mvvm",
@@ -30,12 +31,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/strveJs/strve-reactivity.git"
+    "url": "git+https://github.com/maomincoding/amazed-web-components.git"
   },
   "bugs": {
-    "url": "https://github.com/strveJs/strve-reactivity/issues"
+    "url": "https://github.com/maomincoding/amazed-web-components/issues"
   },
-  "homepage": "https://github.com/strveJs/strve-reactivity#readme",
+  "homepage": "https://github.com/maomincoding/amazed-web-components#readme",
   "devDependencies": {
     "@rollup/plugin-replace": "^5.0.2",
     "@rollup/plugin-terser": "^0.4.4",
