@@ -1,6 +1,6 @@
 {
-  "name": "amazed-web-components",
-  "version": "0.0.3",
+  "name": "mettle-web-components",
+  "version": "0.1.0",
   "description": "Fast, lightweight web components for creating web pages.",
   "main": "dist/amazed-web-components.esm.js",
   "module": "dist/amazed-web-components.esm.js",
