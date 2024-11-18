@@ -1,11 +1,11 @@
 {
   "name": "mettle-web-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fast, lightweight web components for creating web pages.",
-  "main": "dist/amazed-web-components.esm.js",
-  "module": "dist/amazed-web-components.esm.js",
-  "unpkg": "dist/amazed-web-components.esm.js",
-  "jsdelivr": "dist/amazed-web-components.esm.js",
+  "main": "dist/mettle-web-components.esm.js",
+  "module": "dist/mettle-web-components.esm.js",
+  "unpkg": "dist/mettle-web-components.esm.js",
+  "jsdelivr": "dist/mettle-web-components.esm.js",
   "author": "maomincoding",
   "files": [
     "dist/*.js"
@@ -16,10 +16,10 @@
   "license": "MIT",
   "private": false,
   "keywords": [
-    "amazed",
-    "amazedjs",
-    "amazed-js",
-    "amazed-web-components",
+    "mettle",
+    "mettlejs",
+    "mettle-js",
+    "mettle-web-components",
     "web-components",
     "reactivity",
     "dom",
@@ -31,12 +31,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maomincoding/amazed-web-components.git"
+    "url": "git+https://github.com/maomincoding/mettle-web-components.git"
   },
   "bugs": {
-    "url": "https://github.com/maomincoding/amazed-web-components/issues"
+    "url": "https://github.com/maomincoding/mettle-web-components/issues"
   },
-  "homepage": "https://github.com/maomincoding/amazed-web-components#readme",
+  "homepage": "https://github.com/maomincoding/mettle-web-components#readme",
   "devDependencies": {
     "@rollup/plugin-replace": "^5.0.2",
     "@rollup/plugin-terser": "^0.4.4",

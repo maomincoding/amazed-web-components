@@ -4,7 +4,7 @@ const version = require('./package.json').version;
 
 const banner =
   '/*!\n' +
-  ` * Amazed-web-components v${version}\n` +
+  ` * Mettle-web-components v${version}\n` +
   ` * (c) 2023-${new Date().getFullYear()} maomincoding\n` +
   ' * Released under the MIT License.\n' +
   ' */';
@@ -13,7 +13,7 @@ const config = {
   input: './lib/core.js',
   output: {
     banner,
-    file: './dist/amazed-web-components.esm.js',
+    file: './dist/mettle-web-components.esm.js',
     format: 'esm',
   },
   plugins: [terser()],
